@@ -1,0 +1,214 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(loginarkaplan.jpg);
+    font-family: "Blizzard","Arial","Helvetica","Segoe UI Symbol","Segoe MDL2 Assets",sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+     color: white;
+}
+       h1{
+        color: white;
+        font-family: "Blizzard","Arial","Helvetica","Segoe UI Symbol","Segoe MDL2 Assets",sans-serif;
+       
+       }
+    
+    a{
+        text-decoration:none;
+    }
+    
+    a:hover{
+    
+        color:white;
+    }
+    
+    
+    
+    .ortalama{
+        margin-top: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height:100% ;
+    width:60% ;
+    
+    
+    
+    
+    }
+    .ortaiç{
+    margin-top: 40px;
+    height:60%;
+    width: 95%;
+    
+    
+    }
+    #logo{
+    height:28% ;
+    width: 20%;
+    margin-right:40%  ;
+    margin-left:40%  ;
+    
+    
+    
+    }
+    .emailout{
+        display: block;
+        margin-left: 25%;
+    width:500px ;
+    height:40px ;
+    margin-top: 10px;
+    text-align: center;
+    
+    
+    
+    
+    
+    }
+    input{
+        display: inline-block;
+        color:white;
+      padding: 1%;
+        width:500px;
+        margin: 5px 0;
+        padding: 0 10px;
+        font-size: 17px;
+        line-height: 20px;
+        height: 100%;border: 1px solid rgba(255,255,255,0.3);
+        background-color: rgba(0,0,0,0.5);
+    
+    
+    }
+    input:hover{
+    
+    
+        border-color: rgba(133, 127, 127, 0.808);
+    }
+    button
+      {background-color: #00649c;
+       color:white; 
+          width: 500px;
+        margin-top: 10px;  
+        height: 40px;
+    
+        font-size: 17px;
+        text-align: center;
+        background-color: #0e86ca;
+        color: #fff;
+        border: 1px solid #10a1de;
+        box-shadow: 0 0 rgba(0,0,0,0);
+        border-radius: 0;
+        transition: background-color .2s,box-shadow .2s,background-color .2s,border-color .2s,color .2s;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.15) inset;
+    }
+        
+    
+    
+    
+    span
+    {
+    
+    margin-top: 5px;
+        font-size: 13px;
+        color: rgba(255,255,255,.3);
+        text-transform: uppercase;
+    }
+    button:hover{
+        background-color: #8bccf1da;
+    
+    }
+    .sosyal{
+        
+        background: #005c99;
+        line-height: 20px;
+    width: 245px;
+    height: 34px;
+    
+    }
+    .others{
+        margin-top: 5px;
+        color: #00aeff;
+        
+        transition: color .2s;
+    
+    }
+    .alt{
+        display: inline-block;
+        display: block;
+        position:absolute;
+    
+        width:100%;
+        height:120px;   
+      
+        text-align:center;
+        text-decoration:none;
+        padding-left: 5px;
+    
+    }
+    
+    .altyazı{
+    bottom: 0;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.7);
+        text-decoration: none;
+        transition: text-shadow 160ms ease, color 160ms ease;
+    }
+    
+    
+    .altyazıı{
+    
+        padding: 8px 0;
+        color: rgba(255, 255, 255, 0.3);
+        font-size: 12px;
+    }
+    
+    .uyarı{
+       
+        padding: 1%;
+        width:360px;
+    
+        margin-left:33% ;
+       
+        font-size: 17px;
+        line-height: 20px;
+      
+       color: white;
+        text-align: center;
+        background-color: #360e10;
+        box-shadow: 0 0 0 1px #551e21 inset, 0 5px 10px rgba(0,0,0,0.75);
+    
+    
+    }
+    select{
+
+        color:white;
+      padding: 1%;
+      width:500px;
+        margin: 5px 0;
+        padding: 0 10px;
+        font-size: 17px;
+        line-height: 20px;
+        height: 100%;border: 1px solid rgba(255,255,255,0.3);
+        background-color: rgba(0,0,0,0.5);
+    
+    }
+    .input1{
+width: 245px;
+
+float: left;
+position: relative;
+margin-left: 5px;
+
+    }
+    .tarih{
+
+width: 150px;
+float: left;
+margin-left: 10px;;
+
+    }
+    #özelbuton{
+
+background-color: transparent;
+
+    }
