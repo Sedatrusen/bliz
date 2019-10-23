@@ -1,15 +1,23 @@
+
 <html>
 <title>Blizzard Login</title>
+
 <link rel="stylesheet" href="login.css">
 <body>
 <div class=ortalama>
 <div class=ortaiç >
 <div id=logo ><img src="blizzlogo.png" alt=""></div>
-<div class=emailout  ><input type="text" placeholder="Email or Phone" >  </div>
-<div class=emailout  ><input type="text"  placeholder="Password">  </div>
-<div class=emailout  ><button  type="submit"  >Log In  </button>  </div>
+<div id=login>
+<div class=emailout  v-show="show"
+
+><p class=uyarı>Please enter your account.</p> </div>
+
+<div class=emailout  ><input v-model="email" type="text" placeholder="Email or Phone" >  </div>
+<div class=emailout  ><input v-model="password" type="text"  placeholder="Password">  </div>
+<div class=emailout ><button    v-on:click="tiklama(email,password)" >Log In  </button>  </div>
+</div>
 <div class=emailout  > <span >  Or log in with</span>  </div>
-<div class=emailout  ><button class="sosyal"  type="submit"  ><img src="facebookimg.png" alt="">     Facebo...  </button> <button class=sosyal  type="submit"  ><img src="googleimg.png" alt="">  Log In  </button>  </div>
+<div class=emailout  ><button class="sosyal"  type="submit"  ><img src="facebookimg.png" alt="">     Facebo...  </button> <button class=sosyal  type="submit"  ><img src="googleimg.png" alt=""> Google </button>  </div>
 <div class=emailout  > <a class=others href="">Create a free Blizzard Accoun</a>  </div>
 <div class=emailout  > <a  class=others href="">Can't log in?</a>  </div>
 </div>
@@ -20,9 +28,16 @@
     </div>
     <div class="altyazıı">©2019 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.</div>
 </div>    
-
-
 </body>
 
-<script src="C:\Users\israf\Documents\GitHub\bliz\wepsite\login.js"></script>
+
+
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+      <script src="./dist/vue-observe-visibility.min.js"></script>
+
+
+<script src="node_modules/vue-visible/dist/v-visible.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="login.js"></script>
+
 </html>

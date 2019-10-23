@@ -16,6 +16,9 @@ a:hover{
 
     color:white;
 }
+
+
+
 .ortalama{
 margin-left: 20%;
 margin-right: 20%;
@@ -52,8 +55,10 @@ text-align: center;
 
 
 
+
 }
 input{
+    color:white;
   padding: 1%;
     width:360px;
     margin: 5px 0;
@@ -100,7 +105,7 @@ margin-top: 5px;
     text-transform: uppercase;
 }
 button:hover{
-    background-color: #4ea9ddda;
+    background-color: #8bccf1da;
 
 }
 .sosyal{
@@ -143,4 +148,22 @@ width: 172px;
     padding: 8px 0;
     color: rgba(255, 255, 255, 0.3);
     font-size: 12px;
+}
+
+.uyarı{
+   
+    padding: 1%;
+    width:360px;
+
+    margin-left:33% ;
+   
+    font-size: 17px;
+    line-height: 20px;
+  
+   color: white;
+    text-align: center;
+    background-color: #360e10;
+    box-shadow: 0 0 0 1px #551e21 inset, 0 5px 10px rgba(0,0,0,0.75);
+
+
 }
