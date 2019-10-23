@@ -20,21 +20,22 @@
 
 <div id=borders>
 
-<div class=emailout  ><input v-bind:style="{ 'border-color': 'namecolor' }"class=input1 v-model="Firstname" type="text" placeholder="Firstname" > <input class=input1  v-bind:style="{ 'border-color': 'surnamecolor' }" v-model="Surname" type="text" placeholder="Surname" > </div>
-<div class=emailout  ><input class=tarih  v-bind:style="{ 'border-color': 'tarihcolor' }" v-model="Tarih" type="text" placeholder="Tarih" > <input  class=tarih v-model="Day" type="text"  v-bind:style="{ 'border-color': 'daycolor' }" placeholder="Day" > <input  class=tarih  v-bind:style="{ 'border-color': 'yearcolor' }" v-model="Year" type="text" placeholder="Year" > </div>
-<div class=emailout  ><input  v-model="email"  v-bind:style="{ 'border-color': 'emailcolor' }" type="text" placeholder="Email adres" >  </div>
-<div class=emailout  ><input v-model="password"   v-bind:style="{ 'border-color': 'passcolor' }" type="text" placeholder="Password" >  </div>
+<div class=emailout  ><input v-bind:style="{ 'border-color': namecolor }"class=input1 v-model="Firstname" type="text" placeholder="Firstname" > <input class=input1  v-bind:style="{ 'border-color': surnamecolor }" v-model="Surname" type="text" placeholder="Surname" > </div>
+<div class=emailout  ><input class=tarih  v-bind:style="{ 'border-color': tarihcolor }" v-model="Tarih" type="text" placeholder="Tarih" > <input  class=tarih v-model="Day" type="text"  v-bind:style="{ 'border-color': daycolor }" placeholder="Day" > <input  class=tarih  v-bind:style="{ 'border-color': yearcolor}" v-model="Year" type="text" placeholder="Year" > </div>
+<div class=emailout  ><input  v-model="email"  v-bind:style="{ 'border-color': emailcolor }" type="text" placeholder="Email adres" >  </div>
+<div class=emailout  ><input v-model="password"   v-bind:style="{ 'border-color': passcolor }" type="text" placeholder="Password" >  </div>
 <div class=emailout  ><select   >
         <option value="volvo">Select a Question</option>
         <option value="saab">What was the first car you owned?</option>
         <option value="opel">What was the street you lived on in high school?</option>
         <option value="audi">Where was the first place you flew?</option>
       </select>  </div>
-<div class=emailout  ><input v-model="answer"   v-bind:style="{ 'bordercolor': 'answer-color' }" type="text" placeholder="Secret Answer" >  </div>
+<div class=emailout  ><input v-model="answer"   v-bind:style="{ 'bordercolor': answer-color }" type="text" placeholder="Secret Answer" >  </div>
 
-</div>
+
 
 <div class=emailout ><button    v-on:click="tiklama(Firstname,Surname,Tarih,Day,Year,email,password,answer)" >Create a free account  </button>  </div>
+</div>
 <div class=emailout ><button id=özelbuton   v-on:click="login" >Already have a account? </button>  </div>
 
 
@@ -51,15 +52,6 @@
 
 
 </div>
-<div class=alt >  <div>
-        <a class=altyazı href="">BATTLE.NET EULA</a>  -           <a class=altyazı href=""> PRIVACY</a>       -         <a class=altyazı href=""> TERMS </a>     -                 <a class=altyazı href="">COPYRIGHT INFRINGEMENT</a>
-                    -           <a class=altyazı href=""> COOKIES</a>           
-    </div>
-    <div class="altyazıı">©2019 BLIZZARD ENTERTAINMENT, INC. ALL RIGHTS RESERVED.</div>
-</div>    
-</body>
-
-
 
 <script src="https://unpkg.com/vue/dist/vue.js"></script>
       <script src="./dist/vue-observe-visibility.min.js"></script>
