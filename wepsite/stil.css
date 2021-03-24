@@ -1,385 +1,360 @@
-
-.sayfa
-{
-width: 100%;
-background-image: url(left.png);
-background-repeat: initial;
-background-size: 100% 100%;
-font-family: "Open Sans",Helvetica,Arial,sans-serif;
+.sayfa {
+  width: 100%;
+  background-image: url(left.png);
+  background-repeat: initial;
+  background-size: 100% 100%;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
 .top {
-width: 1600px;
-margin-left: 10%;
-margin-right: 10%;
-height: 40px;
-padding-left:  40px;
-padding-right:  40px;
-position: relative;
-background-image: url(top.png);
+  width: 1600px;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  background-image: url(top.png);
 
-color:rgba(255,255,255,.7);
-box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
 
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-font-size: 18px;
-font-weight:400px;
-line-height: 22.4px;
-padding-block-start: 0;
-padding-top: 0;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 22.4px;
+  padding-block-start: 0;
+  padding-top: 0;
 
-text-size-adjust:100%;
+  text-size-adjust: 100%;
 
-white-space: nowrap;
-text-decoration: none;
-
+  white-space: nowrap;
+  text-decoration: none;
 }
 
 #logoharfler {
-    
-    cursor: pointer;
-    display: inline-block;
-    position: absolute ;
-    top: 50%;
-    left:0;
-    width:60px;
-    text-decoration: none;
-    
-    height:30px;
-    width: auto;
-    background-size: auto 28px;
-    fill: #009ae4;
-    pointer-events: none;
-    white-space: nowrap;
-    transform: translateY(-50%);
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
 
+  width: 60px;
+  text-decoration: none;
+
+  height: 30px;
+  width: auto;
+  background-size: auto 28px;
+  fill: #009ae4;
+  pointer-events: none;
+  white-space: nowrap;
+  transform: translateY(-50%);
 }
 
+.label {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  margin-left: 80px;
 
-.label
-{color:rgba(255,255,255,.7);
- text-decoration: none;
- margin-left:80px; 
-
-padding-top: 10px;
- text-decoration: none;
- position: absolute;
+  padding-top: 10px;
+  text-decoration: none;
+  position: absolute;
 }
-.profile
-{color:rgba(255,255,255,.7);
- text-decoration: none;
-position: static;
-text-align: right;
-padding-top: 10px;
- text-decoration: none;
- margin-right: 15%;
+.profile {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  position: static;
+  text-align: right;
+  padding-top: 10px;
+  text-decoration: none;
+  margin-right: 15%;
 }
-.profil
-{color:rgba(255,255,255,.7);
- text-decoration: none;
-position: static;
-text-align: right;
-padding-top: 10px;
- text-decoration: none;}
+.profil {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  position: static;
+  text-align: right;
+  padding-top: 10px;
+  text-decoration: none;
+}
 ul {
-    
-    height: 40px;
-    background-color: #032041;
-    list-style-type: none;
-    
-    overflow: hidden;
-    
-  }
-  
-  li {
-      display: block;
-      background-color: #032041;
-    float: left;
-  }
-   #birinci{
-      margin-left: 8%;
-  }
-  
-  li a {
-    display: block;
-    color: rgba(255,255,255,.8);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    color: white;
-  }
-  .home{
-      height: 14px;
-      width: 14px;
-  }
-  li.dropdown {
-    
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-   
-    display: none;
-    position: absolute;
-    background-color: black;
-    
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-size: 12px;
-  }
-  
-  .dropdown-content a {
-    background-color: black;
-   height: 20px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    border: #f1f1f1;
-  }
-  
-  .dropdown-content a:hover {background-color: #1a1919;}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .resimler
-  {
-      height: 20px;
-      width: 20px;
-      padding:0 8 0 0 ;  
-  }
-  .yazi
-  {
-   margin:4 18 ;
-      padding-top:5px; 
-      background-color: black;
-      font-size: 12px;
-      color:rgb(153, 149, 149); 
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  }
-  .buton
-  {background-color: #00649c;
-   color:white; 
-      
-    margin-top: 10px;  
-height: 30px;
-width: 200px;
-display: block;
-background-image: linear-gradient(-45deg, rgb(0, 100, 156), rgb(14, 134, 202), rgb(0, 100, 156));
-border: none;  
+  height: 40px;
+  background-color: #032041;
+  list-style-type: none;
+
+  overflow: hidden;
 }
-  .simge{
-      fill:rgba(255,255,255,.8);
-      width: 15px;
-      height: 10px;
-     
-  }
-  .aramasimge
-  {fill:rgba(255,255,255,.8);
-    color:#00649c;
-    width: 14px;
-    height: 14px;
-   
 
-  }
-  .menu{
-margin-top: 0;
-    width: 100%;
-    height:40px;
-  }
-  .arama
-  {  
-    background-color: transparent;
-      margin-left: 30%;
-      width:500px ;
-    padding-left: 30px;
- }
- .arama1
- {
-     border-bottom-color:rgba(255, 255, 255, 0.8);
-background-color:transparent; 
-border:0px;
-color:white; 
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
-font-size: 15px;
-height:100%;
-width: 450px;
- }
- .whishlist{
-     background-color: white;
-    z-index: 1;
-    position: relative;
-    display: block;
-    align-items: stretch;
-    padding: 0 18px;
-    border-style: solid;
-    border-color: red;
-   
- }
- .whish
- {   fill:white;
-     height: 14px;
-     width:14px ;
- }
- .orta{
-width: 100%;
-height:300px ;
-display:block;
+li {
+  display: block;
+  background-color: #032041;
+  float: left;
+}
+#birinci {
+  margin-left: 8%;
+}
 
- }
- .info{
-margin-left: 10%;
-left: 100px;
-  top: 150px;
-  
+li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
   text-align: center;
-display: inline;
-position:absolute ; 
-color:white; 
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
- }
- .resimler
- {
-   height:150px ;
-   width:250px ;
- }
-
-.button{
-height: 40px;
-width: 280px;
-background-color: #0e86ca;
-border:none;
-color:white;
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-}
-.button:hover
-{
-    background-color:  #83cefa;
-}
-.butonlar{
-    position:absolute ; 
-top:385px;
-left:40%;
-height:5px ;
-width:100px ;
-background: #869791;
-border: 0px solid ;
-border-color: transparent;
-border-radius: 5px;}
-.butonlar:hover{
-    background-color: #535c59;
-}
-#buton2{
-    margin-left:120px;
-}
-#buton3{
-    margin-left:230px;
-}
-#buton4{
-    margin-left:340px;
-}
-.arka-fon{
-width: 100%;
-height: 300px;
-
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.aralık{
-width: 100%;
-height: 60px;
-background-color:transparent;
-border-bottom: 1px solid rgba(255,255,255,.15);
-    border-top: 1px solid rgba(255,255,255,.15);
-
-
-
+li a:hover {
+  color: white;
 }
-.aralık-yazı
-{margin-left: 30%;
+.home {
+  height: 14px;
+  width: 14px;
+}
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  background-color: black;
+  height: 20px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: #f1f1f1;
+}
+
+.dropdown-content a:hover {
+  background-color: #1a1919;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.resimler {
+  height: 20px;
+  width: 20px;
+  padding: 0 8 0 0;
+}
+.yazi {
+  margin: 4 18;
+  padding-top: 5px;
+  background-color: black;
+  font-size: 12px;
+  color: rgb(153, 149, 149);
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.buton {
+  background-color: #00649c;
+  color: white;
+
+  margin-top: 10px;
+  height: 30px;
+  width: 200px;
+  display: block;
+  background-image: linear-gradient(
+    -45deg,
+    rgb(0, 100, 156),
+    rgb(14, 134, 202),
+    rgb(0, 100, 156)
+  );
+  border: none;
+}
+.simge {
+  fill: rgba(255, 255, 255, 0.8);
+  width: 15px;
+  height: 10px;
+}
+.aramasimge {
+  fill: rgba(255, 255, 255, 0.8);
+  color: #00649c;
+  width: 14px;
+  height: 14px;
+}
+.menu {
+  margin-top: 0;
+  width: 100%;
+  height: 40px;
+}
+.arama {
+  background-color: transparent;
+  margin-left: 30%;
+  width: 500px;
+  padding-left: 30px;
+}
+.arama1 {
+  border-bottom-color: rgba(255, 255, 255, 0.8);
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  height: 100%;
+  width: 450px;
+}
+.whishlist {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+  display: block;
+  align-items: stretch;
+  padding: 0 18px;
+  border-style: solid;
+  border-color: red;
+}
+.whish {
+  fill: white;
+  height: 14px;
+  width: 14px;
+}
+.orta {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
+.info {
+  margin-left: 10%;
+  left: 100px;
+  top: 150px;
+
+  text-align: center;
+  display: inline;
+  position: absolute;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.resimler {
+  height: 150px;
+  width: 250px;
+}
+
+.button {
+  height: 40px;
+  width: 280px;
+  background-color: #0e86ca;
+  border: none;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.button:hover {
+  background-color: #83cefa;
+}
+.butonlar {
+  position: absolute;
+  top: 385px;
+  left: 40%;
+  height: 5px;
+  width: 100px;
+  background: #869791;
+  border: 0px solid;
+  border-color: transparent;
+  border-radius: 5px;
+}
+.butonlar:hover {
+  background-color: #535c59;
+}
+#buton2 {
+  margin-left: 120px;
+}
+#buton3 {
+  margin-left: 230px;
+}
+#buton4 {
+  margin-left: 340px;
+}
+.arka-fon {
+  width: 100%;
+  height: 300px;
+}
+
+.aralık {
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+.aralık-yazı {
+  margin-left: 30%;
   font-size: 14px;
   line-height: 1.3;
-color:white;
+  color: white;
 
-
-float: left;
+  float: left;
 }
-.aralık-simge{
-height: 40px;
-width: 40px;
-margin-left: 5px;
-float: center;
+.aralık-simge {
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  float: center;
 }
-.recommended{
-width: 100%;
-height: 1000px;
-color:white; 
-      font-family: "Open Sans", Helvetica, Arial, sans-serif;
-
+.recommended {
+  width: 100%;
+  height: 1000px;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
 }
-.rec-in{
-padding-top:40px ;
-padding-left: 200px;
-
-
+.rec-in {
+  padding-top: 40px;
+  padding-left: 200px;
 }
-.aralık-simge:hover
-{
-height:50px ;
-width: 50px;
-
+.aralık-simge:hover {
+  height: 50px;
+  width: 50px;
 }
-.kutu{
+.kutu {
   display: inline-flex;
-background-color:transparent;
-width: 290px;
-height: 450px;
-margin-left: 10px;
-
+  background-color: transparent;
+  width: 290px;
+  height: 450px;
+  margin-left: 10px;
 }
-.kutu:hover
-{
-  width:295px ;
+.kutu:hover {
+  width: 295px;
   height: 455px;
 }
-.kucuk-simge{
-margin-top: 10%;
-margin-left: 20px;
-height: 35px;
-width: 35px;
-position: absolute;
+.kucuk-simge {
+  margin-top: 10%;
+  margin-left: 20px;
+  height: 35px;
+  width: 35px;
+  position: absolute;
 }
-.rec-yazi
-{display: block;
-position:  absolute;
-margin-top: 12%;
-margin-left: 20px;
-color: white;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+.rec-yazi {
+  display: block;
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 20px;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
-.rec-yazi2
-{display: block;
-position:  absolute;
-margin-top: 20%;
-margin-left: 20px;
-color: white;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 20px;
+.rec-yazi2 {
+  display: block;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 20px;
+  color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
-.dil{
-  width:100% ;
+.dil {
+  width: 100%;
   height: 25px;
   text-align: center;
   display: inline-block;
 }
-.dil-yazi{
-display: inline;
-color:white;
+.dil-yazi {
+  display: inline;
+  color: white;
 }
-.amplem{
+.amplem {
   width: 100%;
-  height:60px ;
+  height: 60px;
   text-align: center;
 }
